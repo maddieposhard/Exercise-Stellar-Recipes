@@ -1,6 +1,10 @@
+console.log('connected');
+
+
 const recipes = [
   {
     id: "1",
+    image: "images/spaghetti.jpg",
     title: "Spaghetti Carbonara",
     description: "A classic Italian pasta dish with eggs, cheese, pancetta, and pepper.",
     ingredients: [
@@ -20,6 +24,7 @@ const recipes = [
   },
   {
     id: "2",
+    image: "images/avotoast.jpg",
     title: "Avocado Toast",
     description: "A quick and healthy breakfast option with avocado and toast.",
     ingredients: [
@@ -37,6 +42,7 @@ const recipes = [
   },
   {
     id: "3",
+    image: "images/alfredo.jpeg",
     title: "Chicken Alfredo",
     description: "Creamy Alfredo sauce over tender chicken and fettuccine.",
     ingredients: [
@@ -57,6 +63,7 @@ const recipes = [
   },
   {
     id: "4",
+    image: "images/caprese.jpeg",
     title: "Caprese Salad",
     description: "A fresh and simple Italian salad with mozzarella, tomatoes, and basil.",
     ingredients: [
@@ -77,6 +84,7 @@ const recipes = [
   },
   {
     id: "5",
+    image: "images/cookies.jpeg",
     title: "Chocolate Chip Cookies",
     description: "Classic cookies with gooey chocolate chips.",
     ingredients: [
@@ -100,6 +108,7 @@ const recipes = [
   },
   {
     id: "6",
+    image: "images/stirfry.jpeg",
     title: "Vegetable Stir Fry",
     description: "A quick and healthy vegetable stir fry with soy sauce and garlic.",
     ingredients: [
@@ -122,6 +131,7 @@ const recipes = [
   },
   {
     id: "7",
+    image: "images/margherita.jpeg",
     title: "Margherita Pizza",
     description: "Classic pizza with fresh mozzarella, basil, and tomato sauce.",
     ingredients: [
@@ -141,6 +151,7 @@ const recipes = [
   },
   {
     id: "8",
+    image: "images/tacos.jpeg",
     title: "Beef Tacos",
     description: "Flavorful beef tacos with fresh toppings.",
     ingredients: [
@@ -161,6 +172,7 @@ const recipes = [
   },
   {
     id: "9",
+    image: "images/lemonade.jpeg",
     title: "Lemonade",
     description: "Refreshing homemade lemonade.",
     ingredients: [
@@ -178,6 +190,7 @@ const recipes = [
   },
   {
     id: "10",
+    image: "images/bananapancakes.jpeg",
     title: "Banana Pancakes",
     description: "Fluffy pancakes with ripe bananas.",
     ingredients: [
@@ -198,3 +211,6 @@ const recipes = [
     ]
   }
 ];
+
+
+

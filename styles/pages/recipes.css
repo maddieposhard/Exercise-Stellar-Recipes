@@ -38,6 +38,11 @@
   text-align: center;
 }
 
+.recipe-image {
+  height: 300px;
+  width: 200px;
+}
+
 .recipe-title {
   font-size: 18px;
   font-weight: bold;

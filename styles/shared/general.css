@@ -12,7 +12,7 @@ a {
   color: inherit;
 }
 
-img {
+image {
   max-width: 100%;
   display: block;
 }
@@ -30,3 +30,18 @@ input {
   border: 1px solid #ddd;
   border-radius: 4px;
 }
+
+.stellar-logo {
+  height: 150px;
+  width: 150px;
+}
+
+.stellar-mobile-logo {
+  height: 100px;
+  width: 100px;
+}
+
+.stellar-header {
+  display: inline-flex;
+}
+
